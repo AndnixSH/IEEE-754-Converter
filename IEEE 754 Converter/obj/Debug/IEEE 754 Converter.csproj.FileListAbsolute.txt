@@ -1,0 +1,15 @@
+Z:\Project\C#\IEEE 754 Converter\IEEE 754 Converter\bin\Debug\IEEE 754 Converter.exe.config
+Z:\Project\C#\IEEE 754 Converter\IEEE 754 Converter\bin\Debug\IEEE 754 Converter.exe
+Z:\Project\C#\IEEE 754 Converter\IEEE 754 Converter\bin\Debug\IEEE 754 Converter.pdb
+Z:\Project\C#\IEEE 754 Converter\IEEE 754 Converter\obj\Debug\IEEE 754 Converter.csprojAssemblyReference.cache
+Z:\Project\C#\IEEE 754 Converter\IEEE 754 Converter\obj\Debug\MainWindow.g.cs
+Z:\Project\C#\IEEE 754 Converter\IEEE 754 Converter\obj\Debug\App.g.cs
+Z:\Project\C#\IEEE 754 Converter\IEEE 754 Converter\obj\Debug\IEEE 754 Converter_MarkupCompile.cache
+Z:\Project\C#\IEEE 754 Converter\IEEE 754 Converter\obj\Debug\IEEE 754 Converter_MarkupCompile.lref
+Z:\Project\C#\IEEE 754 Converter\IEEE 754 Converter\obj\Debug\MainWindow.baml
+Z:\Project\C#\IEEE 754 Converter\IEEE 754 Converter\obj\Debug\IEEE 754 Converter.g.resources
+Z:\Project\C#\IEEE 754 Converter\IEEE 754 Converter\obj\Debug\IEEE_754_Converter.Properties.Resources.resources
+Z:\Project\C#\IEEE 754 Converter\IEEE 754 Converter\obj\Debug\IEEE 754 Converter.csproj.GenerateResource.cache
+Z:\Project\C#\IEEE 754 Converter\IEEE 754 Converter\obj\Debug\IEEE 754 Converter.csproj.CoreCompileInputs.cache
+Z:\Project\C#\IEEE 754 Converter\IEEE 754 Converter\obj\Debug\IEEE 754 Converter.exe
+Z:\Project\C#\IEEE 754 Converter\IEEE 754 Converter\obj\Debug\IEEE 754 Converter.pdb

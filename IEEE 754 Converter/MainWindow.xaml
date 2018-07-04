@@ -1,0 +1,23 @@
+﻿<Window x:Class="IEEE_754_Converter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IEEE_754_Converter"
+        mc:Ignorable="d"
+        Title="IEEE 754 Converter" Height="241" Width="413" ResizeMode="CanMinimize">
+    <Grid>
+        <Grid HorizontalAlignment="Left" Height="143" Margin="0,67,0,0" VerticalAlignment="Top" Width="405" Background="#FFC1FFC4"/>
+
+        <Grid HorizontalAlignment="Left" Height="81" VerticalAlignment="Top" Width="405" Background="#FFBBBBBB"/>
+        <TextBox x:Name="floatTxtBox" HorizontalAlignment="Left" Height="23" Margin="123,21,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="211" TextChanged="floatTxtBox_TextChanged" PreviewTextInput="floatTxtBox_PreviewTextInput"/>
+        <TextBox x:Name="bigEndTxtBox" IsReadOnly="True" MaxLength="8" HorizontalAlignment="Left" Height="23" Margin="242,154,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Hexadecimal Representation" HorizontalAlignment="Left" Margin="127,88,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.474,0.538"/>
+        <Label Content="Original hexadecimal 0x" HorizontalAlignment="Left" Margin="101,151,0,0" VerticalAlignment="Top"/>
+        <Label Content="Hexadecimal for Little-endian:  0x" HorizontalAlignment="Left" Margin="36,121,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="Float value:" HorizontalAlignment="Left" Margin="46,18,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <TextBox x:Name="litEndTxtBox" IsReadOnly="True" MaxLength="8" HorizontalAlignment="Left" Height="23" Margin="242,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="invalidLbl" Content="Invalid decimal" HorizontalAlignment="Left" Margin="164,49,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.474,0.538" Visibility="Hidden"/>
+
+    </Grid>
+</Window>
