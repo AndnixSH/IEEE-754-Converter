@@ -5,19 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:IEEE_754_Converter"
         mc:Ignorable="d"
-        Title="IEEE 754 Converter" Height="241" Width="413" ResizeMode="CanMinimize">
+        Title="IEEE 754 Floating Point Converter" Height="290" Width="413" ResizeMode="CanMinimize">
     <Grid>
-        <Grid HorizontalAlignment="Left" Height="143" Margin="0,67,0,0" VerticalAlignment="Top" Width="405" Background="#FFC1FFC4"/>
+        <Grid HorizontalAlignment="Center" Height="247" Margin="0,49,0,0" VerticalAlignment="Top" Width="413" Background="#FFC1FFC4"/>
+        <Grid HorizontalAlignment="Center" Height="49" VerticalAlignment="Top" Width="413" Background="#FFBBBBBB"/>
+        <TextBox x:Name="floatTxtBox" HorizontalAlignment="Left" Height="23" Margin="116,11,0,0" VerticalAlignment="Top" Width="271" TextChanged="floatTxtBox_TextChanged" PreviewTextInput="floatTxtBox_PreviewTextInput"/>
 
-        <Grid HorizontalAlignment="Left" Height="81" VerticalAlignment="Top" Width="405" Background="#FFBBBBBB"/>
-        <TextBox x:Name="floatTxtBox" HorizontalAlignment="Left" Height="23" Margin="123,21,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="211" TextChanged="floatTxtBox_TextChanged" PreviewTextInput="floatTxtBox_PreviewTextInput"/>
-        <TextBox x:Name="bigEndTxtBox" IsReadOnly="True" MaxLength="8" HorizontalAlignment="Left" Height="23" Margin="242,154,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Hexadecimal Representation" HorizontalAlignment="Left" Margin="127,88,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.474,0.538"/>
-        <Label Content="Original hexadecimal 0x" HorizontalAlignment="Left" Margin="101,151,0,0" VerticalAlignment="Top"/>
-        <Label Content="Hexadecimal for Little-endian:  0x" HorizontalAlignment="Left" Margin="36,121,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Label Content="Float value:" HorizontalAlignment="Left" Margin="46,18,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <TextBox x:Name="litEndTxtBox" IsReadOnly="True" MaxLength="8" HorizontalAlignment="Left" Height="23" Margin="242,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Label x:Name="invalidLbl" Content="Invalid decimal" HorizontalAlignment="Left" Margin="164,49,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.474,0.538" Visibility="Hidden"/>
+        <TextBox x:Name="litEndTxtBox" IsReadOnly="True" MaxLength="8" HorizontalAlignment="Left" Height="23" Margin="173,88,0,0" VerticalAlignment="Top" Width="214"/>
+        <TextBox x:Name="bigEndTxtBox" IsReadOnly="True" MaxLength="8" HorizontalAlignment="Left" Height="23" Margin="173,116,0,0" VerticalAlignment="Top" Width="214"/>
+        <Label Content="32-bit - float" HorizontalAlignment="Left" Margin="10,59,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.474,0.538" FontWeight="Bold"/>
+        <Label Content="Hexadecimal:" HorizontalAlignment="Left" Margin="10,114,0,0" VerticalAlignment="Top"/>
+        <Label Content="Little-endian hexadecimal:" HorizontalAlignment="Left" Margin="10,85,0,0" VerticalAlignment="Top"/>
+        <Label Content="Decimal value:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
 
+        <Label Content="64-bit - double" HorizontalAlignment="Left" Margin="10,147,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.474,0.538" FontWeight="Bold"/>
+
+        <TextBox x:Name="litEndTxtBox64" IsReadOnly="True" MaxLength="8" HorizontalAlignment="Left" Height="23" Margin="173,177,0,0" VerticalAlignment="Top" Width="214"/>
+        <TextBox x:Name="bigEndTxtBox64" IsReadOnly="True" MaxLength="8" HorizontalAlignment="Left" Height="23" Margin="173,205,0,0" VerticalAlignment="Top" Width="214"/>
+        <Label Content="Hexadecimal:" HorizontalAlignment="Left" Margin="10,203,0,0" VerticalAlignment="Top"/>
+        <Label Content="Little-endian hexadecimal:" HorizontalAlignment="Left" Margin="10,174,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>
